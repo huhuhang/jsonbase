@@ -1,5 +1,7 @@
 # jsonbase
 
+[English README](./README_EN.md)
+
 本项目提供了基于 Cloudflare Workers 部署的 JSON Database 数据库。可以方便地存储和读取 JSON 数据。
 
 ## 示例
@@ -9,7 +11,7 @@
 ```bash
 curl -X "POST" "https://jsonbase.huhuhang.workers.dev/demo_bucket/hello" \
      -H 'Content-Type: application/json; charset=utf-8' \
-     -d $'{"hello": "world"}'
+     -d '{"hello": "world"}'
 ```
 
 使用 GET 方法获取命名空间 `demo_bucket/hello` 的数据：
