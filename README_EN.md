@@ -47,4 +47,4 @@ or use the official wrangler cli tool provided by.
 
 ## Authentication?
 
-There is no authentication added at this time, feel free to store and read data. Please do not use the project example database, your data may be removed or tampered with, please deploy it yourself.
+Currently there is no authentication added, to secure your data, you can use Cloudflare Access to create a request policy. Or refer to [official example](https://developers.cloudflare.com/workers/examples/auth-with-headers) to modify the code to add authentication module. Please do not use the sample database in the project in production environment, your data may be removed or tampered with, please deploy it yourself.

@@ -47,6 +47,6 @@ curl "https://jsonbase.huhuhang.workers.dev/demo_bucket/hello"
 4. 请修改 `wrangler.toml` 中预留的 KV 数据库 `id`，替换为你的账户信息。
 5. 将 `jsonbase` 项目添加到 Cloudflare Workers 部署。
 
-## 身份认证？
+## 身份认证
 
-目前没有添加任何身份认证，可以自由存储和读取数据。请不要使用项目示例数据库，你的数据可能被移除或篡改，请自行部署。
+目前没有添加任何身份认证，为了保护数据安全，可以使用 Cloudflare Access 创建请求策略。或者参考 [官方示例](https://developers.cloudflare.com/workers/examples/auth-with-headers) 修改代码添加认证模块。请不要在生产环境使用项目中的示例数据库，你的数据可能被移除或篡改，请自行部署。
