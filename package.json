@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "jsonbase",
+  "version": "1.0.0",
+  "description": "本项目提供了基于 Cloudflare Workers 部署的 JSON Base 数据库。可以方便地存储和读取 JSON 数据。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "huhuhang <huhuhang@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}

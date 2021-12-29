@@ -1,0 +1,14 @@
+name = "jsonbase"
+type = "javascript"
+
+# 请修改成自己的 account_id
+account_id = "fd859a969257e8b9a374db8e26327a28"
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2021-12-29"
+
+# 请修改成自己的 KV 数据库 ID
+[[kv_namespaces]]
+binding = "JSONBASE"
+id = "da895ae3dcb744ed924ad6c3ccf974b6"
